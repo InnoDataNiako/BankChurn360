@@ -1,0 +1,30 @@
+Ceci est une application Streamlit conçue pour offrir une vue 360° sur la clientèle d'une institution financière. L’objectif principal est de détecter et prédire le churn (désabonnement) des clients, d’analyser les facteurs influençant ce churn et de segmenter la clientèle en fonction de différents critères (comportementale, valeur client, risque crédit).
+
+Fonctionnalités :
+
+Indicateurs Clés (KPI) : Affichage de métriques essentielles telles que le portefeuille client, le taux de désabonnement, le CLV médian et l’exposition au risque à travers des cartes interactives et esthétiques.
+
+Analyse Visuelle Globale : Visualisations interactives (histogrammes, bar charts, donuts) pour explorer la distribution du churn et l'importance des facteurs prédictifs.
+
+Segmentation Clientèle : Utilisation de KMeans pour segmenter la clientèle selon des critères comportementaux, de valeur ou de risque.
+
+Prédiction du Churn : Modèle RandomForest fournissant une probabilité de churn, accompagné d’analyses détaillées via tableaux, scatter plots et heatmaps.
+
+Technologies Utilisées :
+
+Langage : Python
+
+Bibliothèques : Streamlit, Pandas, Numpy, Plotly, Scikit-learn
+
+Machine Learning : RandomForest pour la prédiction du churn et KMeans pour la segmentation.
+
+Utilisation :
+
+Placez le fichier BankChurners.csv dans le même répertoire que l’application.
+
+Exécutez l’application avec la commande :
+streamlit run app.py
+
+Naviguez entre les pages "Dashboard Global" et "Prédiction Churn" via le menu de navigation.
+
+Utilisez les filtres disponibles (par exemple, le filtre CLV) pour affiner l’analyse.
